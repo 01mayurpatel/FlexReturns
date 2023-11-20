@@ -5,16 +5,19 @@ body{
 /* NAVBAR */
 .navbar-nav-box{
     padding: 5px;
+    /* padding-bottom: 0px; */
     background-color: rgb(38,43,55);
     border-radius: 5px;
+    height: fit-content;
+    
     border: 2px solid rgba(128, 128, 128, 0.379);
 }
 .nav-button{
     background-color: rgb(52,105,250);
     height: fit-content;
     padding: 10px;
-    margin-top: 8px;
-    margin-bottom: auto;
+    /* margin-top: 9px; */
+    margin-bottom: 0;
     border-radius: 5px;
 }
 .navbar-nav-item {
@@ -26,6 +29,7 @@ border-radius: 5px;
 color: white;
 font-weight: 500;
 cursor: pointer;
+
 }
 .navbar-nav-item a{
     color: white;
@@ -461,6 +465,9 @@ cursor: pointer;
     }
     button{
         padding-top: 0;
+    }
+    .nav-button{
+        margin-top: 8px;
     }
 }
 @media (max-width:464px){

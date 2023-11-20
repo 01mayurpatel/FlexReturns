@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* TEXT WITH BLUE BACKGROUND */
+.text-blue-background {
+    background: rgb(48, 97, 228);
+    background: linear-gradient(0deg, rgba(48, 97, 228, 1) 0%, rgba(29, 45, 92, 1) 31%, rgba(20, 20, 34, 1) 50%, rgba(20, 20, 34, 1) 100%);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    width: fit-content;
+}
+.text-blue-background-2 {
+    background: rgb(244,244,250);
+    background: linear-gradient(180deg, rgba(244,244,250,1) 70%, rgba(106,145,254,1) 100%);
+    color: rgb(52, 104, 251);
+   
+}
+
+
+
+/* BUTTON */
+.button-type1 {
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    background-color: rgb(52, 105, 250);
+    border-radius: 18px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+.button-type1:hover {
+    background-color: rgb(27, 82, 233);
+    transition: 500ms ease;
+}
+button{
+    border: none;
+}
+button:focus{
+    border: none;
+    outline: none;
+    
+}
+.button-type2{
+    width: fit-content;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom:8px ;
+    border: none;
+    background-color: rgb(52, 105, 250);
+    border-radius: 10px;
+    font-size: 15px;
+    
+    color: white;
+}
+/* FONTS */
+
+p{
+    font-size: 20px;
+    font-weight: 450;
+}
+.text_blue{
+    color: rgb(52, 104, 251);
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(2,2,10);
+    color: white;
+}
+.foot-container{
+    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.foot-type-1{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.foot-type-2{
+    font-size: 15px;
+    display: block;
+        
+    color: rgba(255, 255, 255, 0.705);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+.foot-type-2:hover{
+    color:white;
+}
+.fa-brands{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 20px;
+}
+.fa-brands:hover{
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:770px) {
+    .foot-container{
+    
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+   
+
+}

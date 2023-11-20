@@ -1,0 +1,142 @@
+/* NAVBAR */
+
+.navbar {
+    background-color: black;
+}
+.navbar-nav li{
+    padding-left: 15px;
+    color: white;
+}
+.navbar-nav li a{
+    /* padding-left: 15px; */
+    color: white !important;
+}
+.navbar-nav li a:hover{
+    color: rgb(128,128,128) !important;
+}
+.dropdown-menu a{
+    font-size: 14px;
+    
+}
+.dropdown-menu{
+    padding-top: 0;
+    background-color: rgb(26, 26, 41);
+    
+}
+
+.dropdown-menu a:hover{
+    color: rgb(128,128,128) !important;
+    background-color: rgb(26,26,41);
+    
+}
+
+
+.section-1{
+    background-color: rgb(21,21,34);
+}
+.section-2{
+    background-color: rgb(244,244,250);
+    
+}
+.section-3{
+    
+    background-color: rgb(244,244,250);
+    
+}
+.s2-container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.s3-container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.blocks{
+    width: 100%;
+   
+    display: flex;
+}
+
+.div_a{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    border: 3px solid rgb(52, 104, 251);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    
+    display: block;
+    
+}
+
+.div_b{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    display: none;
+    border: 3px solid rgb(52, 104, 251);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+}
+.btn_a{
+    
+    background-color: rgb(52, 104, 251);
+    padding:    5px 25px;
+    font-size: 19px;
+    font-weight: 500;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.btn_b{
+    
+    background-color: white;
+    padding:    5px 25px;
+    font-size: 19px;
+    font-weight: 500;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: rgb(52, 104, 251);
+    border: none;
+}
+
+.supply-btn{
+    font-size: 13px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.supply-text{
+    font-size: 19px;
+    font-weight: 450;
+}
+
+
+.s3-top{
+    color: black;
+   font-size: 35px;
+   letter-spacing: 2.2px;
+   font-weight: 500;
+}
+@media (max-width:770px) {
+    .s2-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .s3-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .topheadingmobile{
+        font-size: 28px;
+    }
+    .breaking-point{
+        display: block !important;
+    }
+    .alingmentmobile{
+        text-align: center !important;
+    }
+}

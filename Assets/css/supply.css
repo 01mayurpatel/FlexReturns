@@ -9,6 +9,14 @@ body{
     border-radius: 5px;
     border: 2px solid rgba(128, 128, 128, 0.379);
 }
+.nav-button{
+    background-color: rgb(52,105,250);
+    height: fit-content;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
 .navbar-nav-item {
 padding-left: 12px;
 padding-right: 12px;

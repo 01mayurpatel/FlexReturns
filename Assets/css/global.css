@@ -25,7 +25,9 @@ body{
    
 }
 
-
+.navbar-brand img{
+    height: 25px;
+}
 
 /* BUTTON */
 .button-type1 {
@@ -125,6 +127,18 @@ a:hover{
         padding-right: 20px;
         text-align: center;
     }
-   
+    .navbar-brand img{
+        height: 20px;
+       
+    }
 
+}
+@media (max-width:470px){
+    .nav-button{
+        display: none;
+    }
+    .navbar-nav-box{
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
 }
